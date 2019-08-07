@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="renren-fast:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>renren-fast</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="renren-fast.war">
+      <element id="artifact" artifact-name="renren-fast:war exploded" />
+    </root>
+  </artifact>
+</component>
